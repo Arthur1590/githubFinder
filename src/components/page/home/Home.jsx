@@ -6,6 +6,7 @@ import UserRepos from './UserRepos'
 const Home = () => {
 	const { user, status, error } = useSelector(state => state.search)
 
+
 	if (status === 'loading')
 		return <p className={s.server__response_pend}>Loading...</p>
 	if (status === 'failed')
