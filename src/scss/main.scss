@@ -1,0 +1,39 @@
+@import "./fonts.scss";
+
+$red: rgb(207, 27, 27);
+$purple: rgb(103, 80, 164);
+$gray: rgb(202, 196, 208);
+$redBg: rgb(255, 225, 225);
+$purpleBg: rgb(230, 221, 255);
+
+html {
+    background: #0d1117;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto";
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.container {
+    max-width: 1320px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+button,
+input {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+}
